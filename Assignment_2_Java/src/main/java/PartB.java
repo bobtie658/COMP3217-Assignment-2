@@ -118,6 +118,7 @@ public class PartB {
                 //LRC = LogisticRegression.multinomial(training.toArray(trainingData), labels);
                 //this declaration SHOULD work, but the weights and L are not updated with the training
                 //to counteract this a new regression model is created, however even with this method, the weights are not updated upon fitting
+                //I have spent hours on this one problem (with no documentation :D) and am too stubborn to learn a new module to do this
 
                 int total = 0;
                 int correct = 0;
